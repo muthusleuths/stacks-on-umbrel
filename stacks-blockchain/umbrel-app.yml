@@ -2,8 +2,8 @@ manifestVersion: 1
 id: stacks-blockchain
 category: Stacks
 name: Stacks Node
-version: "2.4.0.0.0"
-icon: https://cloudflare-ipfs.com/ipfs/QmTqAuRGEBdF1wziHtDJZKYiq11Fg2NRh42SZGN6v4fGR2/stacks-stx-logo.svg
+version: "2.4.0.1.0"
+icon: https://cryptologos.cc/logos/stacks-stx-logo.svg?v=029
 tagline: Stacks 2.4 is a layer-1 blockchain that connects to Bitcoin for security and enables decentralized apps and predictable smart contracts. 
 description: >-
   - Stacks 2.4 is a layer-1 blockchain that connects to Bitcoin for security and enables decentralized apps and predictable smart contracts. 
@@ -32,7 +32,7 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 releaseNotes: >-
-  Update API to v7.1.1
+  Update API to v7.10.0-beta
 
-  Update Node to 2.1.0.0.0
+  Update Node to 2.1.0.1.0
 torOnly: false
