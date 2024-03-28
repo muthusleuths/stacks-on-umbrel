@@ -41,10 +41,10 @@ services:
       - ${APP_DATA_DIR}/data/config/setup.env
     command: 
       [
-        "/usr/local/bin/stacks-node",
+        "/bin/stacks-node",
         "start",
         "--config",
-        "/app/config/Config.toml",
+        "/src/stacks-blockchain/Config.toml",
       ]
     ports:
       - $APP_STACKS_CORE_RPC_PORT:$APP_STACKS_CORE_RPC_PORT
