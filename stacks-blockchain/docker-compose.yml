@@ -15,7 +15,7 @@ services:
     stop_grace_period: 1m
     environment:
       #Hiro scuffed the env vars so running a hardcoded prebuilt version
-      NEXT_PUBLIC_MAINNET_API_SERVER: http://localhost:${APP_STACKS_API_PORT}
+      NEXT_PUBLIC_MAINNET_API_SERVER: http://${DEVICE_HOSTNAME}.local:${APP_STACKS_API_PORT}
       NEXT_PUBLIC_TESTNET_API_SERVER: https://stacks-node-api.testnet.stacks.co
       NEXT_PUBLIC_LEGACY_EXPLORER_API_SERVER: https://explorer-api.legacy.blockstack.org
       NEXT_PUBLIC_DEPLOYMENT_URL: http://${DEVICE_HOSTNAME}.local:4009
@@ -50,8 +50,8 @@ services:
       - $APP_STACKS_CORE_RPC_PORT:$APP_STACKS_CORE_RPC_PORT
       - $APP_STACKS_CORE_P2P_PORT:$APP_STACKS_CORE_P2P_PORT
     volumes:
-      - ${APP_DATA_DIR}/data/config:/app/config:ro
-      - ${APP_DATA_DIR}/data/stacks-blockchain:/app/stacks-blockchain/data
+      - ${APP_DATA_DIR}/data/config:/src/stacks-blockchain
+      - ${APP_DATA_DIR}/data/stacks-blockchain:/root/stacks-blockchain/data
     networks:
       default:
         ipv4_address: $APP_STACKS_BLOCKCHAIN_IP
