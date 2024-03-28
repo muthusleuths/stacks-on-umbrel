@@ -28,8 +28,9 @@ repo: https://github.com/stacks-network/stacks-blockchain
 support: https://discord.gg/XyZBbYh3kT
 port: 3998
 gallery:
-  - https://i.imgur.com/ozTHpjG.jpg
-  - https://i.imgur.com/MoN2iX0.jpg
+  - https://i.ibb.co/98BS3jS/Stacks-On-Umbrel.png
+  - https://i.ibb.co/1s6PN8M/Stacks-Explorer-On-Umbrel.png
+  - https://i.ibb.co/GRzGX6M/Stacks-API-On-Umbrel.png
 path: ""
 defaultUsername: ""
 defaultPassword: ""
