@@ -67,8 +67,8 @@ services:
     env_file:
       - ${APP_DATA_DIR}/data/config/setup.env
     volumes:
-      - ${APP_DATA_DIR}/data/bns-data:/app/bns-data
-      - ${APP_DATA_DIR}/data/event-replay:/app/event-replay
+      - ${APP_DATA_DIR}/data/bns-data:/bns-data
+      - ${APP_DATA_DIR}/data/event-replay:/tmp/event-replay
     ports:
       - $APP_STACKS_CORE_EVENT_PORT:$APP_STACKS_CORE_EVENT_PORT
       - $APP_STACKS_API_PORT:$APP_STACKS_API_PORT
