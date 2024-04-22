@@ -2,16 +2,16 @@ manifestVersion: 1
 id: stacks-blockchain
 category: Stacks
 name: Stacks Node
-version: "2.4.0.1.0"
+version: "2.5.0.0.3"
 icon: https://cryptologos.cc/logos/stacks-stx-logo.svg?v=029
-tagline: Stacks 2.4 is a bitcoin layer blockchain that connects to bitcoin for security and enables decentralized apps and predictable smart contracts. 
+tagline: Stacks 2.5 is a bitcoin layer blockchain that connects to bitcoin for security and enables decentralized apps and predictable smart contracts. 
 description: >-
   - !!!! WARNING. Beta Software. !!!!! Works only on Intel CPUs like Umbrel Home !!!! 
   
-  - Stacks 2.4 is a bitcoin layer blockchain that connects to bitcoin for security and enables decentralized apps and predictable smart contracts. 
+  - Stacks 2.5 is a bitcoin layer blockchain that connects to bitcoin for security and enables decentralized apps and predictable smart contracts. 
 
 
-  - Stacks 2.4 implements Proof of Transfer (PoX) mining that anchors to Bitcoin security. Leader election happens at the Bitcoin blockchain and Stacks (STX) miners write new blocks on the separate Stacks blockchain. 
+  - Stacks 2.5 implements Proof of Transfer (PoX) mining that anchors to Bitcoin security. Leader election happens at the Bitcoin blockchain and Stacks (STX) miners write new blocks on the separate Stacks blockchain. 
   With PoX there is no need to modify Bitcoin to enable smart contracts and apps around it. See this page for more details and resources.
 
 
@@ -35,7 +35,7 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 releaseNotes: >-
-  Update API to v7.9.0-beta3
+  Update API to v7.11.0-beta3
 
-  Update Node to 2.4.0.1.0
+  Update Node to 2.5.0.0.3
 torOnly: false
