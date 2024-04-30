@@ -10,7 +10,6 @@ export APP_STACKS_DB_IP="10.21.21.97"
 export APP_STACKS_DB_PORT="5432"
 export APP_STACKS_EXPLORER_IP="10.21.21.221"
 export APP_STACKS_EXPLORER_PORT="4010"
-export APP_STACKS_DATA_DIR="${UMBREL_ROOT}/app-data/stacks-blockchain/data/stacks-blockchain"
 
 
 #!/usr/bin/env bash
