@@ -2,9 +2,9 @@ manifestVersion: 1
 id: stacks-blockchain
 category: Stacks
 name: Stacks Node
-version: "2.5.0.0.3"
+version: "2.5.0.0.6"
 icon: https://cryptologos.cc/logos/stacks-stx-logo.svg?v=029
-tagline: Stacks 2.5.0.0.3 is a bitcoin layer blockchain that connects to bitcoin for security and enables decentralized apps and predictable smart contracts. 
+tagline: Stacks 2.5.0.0.6 is a bitcoin layer blockchain that connects to bitcoin for security and enables decentralized apps and predictable smart contracts. 
 description: >-
   - !!!! WARNING. Beta Software. !!!!! Works only on Intel CPUs like Umbrel Home !!!! 
   
@@ -35,7 +35,7 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 releaseNotes: >-
-  Update API to v7.11.0-beta3
+  Update API to v8.0.0
 
-  Update Node to 2.5.0.0.3
+  Update Node to 2.5.0.0.6
 torOnly: false

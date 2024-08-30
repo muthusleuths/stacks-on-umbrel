@@ -33,7 +33,7 @@ services:
 
 
   stacks-blockchain:
-    image: blockstack/stacks-blockchain:2.5.0.0.3
+    image: blockstack/stacks-blockchain:2.5.0.0.6
     init: true
     restart: on-failure
     stop_grace_period: 15m
@@ -59,7 +59,7 @@ services:
       - stacks-blockchain-api
 
   stacks-blockchain-api:
-    image: hirosystems/stacks-blockchain-api:7.11.0-beta.3
+    image: hirosystems/stacks-blockchain-api:8.0.0
     init: true
     restart: on-failure
     #user: 0:0
