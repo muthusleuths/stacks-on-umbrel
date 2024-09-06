@@ -37,5 +37,7 @@ defaultPassword: ""
 releaseNotes: >-
   Update API to v8.0.0
 
-  Update Node to 2.5.0.0.6
+  Update Node to v2.5.0.0.6
+
+  Update Explorer to v1.204.0
 torOnly: false
