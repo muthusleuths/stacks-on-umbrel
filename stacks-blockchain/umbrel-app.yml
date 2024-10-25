@@ -2,17 +2,15 @@ manifestVersion: 1
 id: stacks-blockchain
 category: Stacks
 name: Stacks Node
-version: "2.5.0.0.6-1"
+version: "3.0.0.0.0"
 icon: https://cryptologos.cc/logos/stacks-stx-logo.svg?v=029
-tagline: Stacks 2.5.0.0.6 is a bitcoin layer blockchain that connects to bitcoin for security and enables decentralized apps and predictable smart contracts. 
+tagline: Stacks 3.0 is a bitcoin layer blockchain that connects to bitcoin for its security and enables decentralized apps and predictable smart contracts. 
 description: >-
-  - !!!! WARNING. Beta Software. !!!!! Works only on Intel CPUs like Umbrel Home !!!! 
-  - !! Version reads 2.5.0.0.6-1 to force update the explorer to v1.204.0 !! 
   
-  - Stacks 2.5 is a bitcoin layer blockchain that connects to bitcoin for security and enables decentralized apps and predictable smart contracts. 
+  - Stacks 3.0 is a bitcoin layer blockchain that connects to bitcoin for security and enables decentralized apps and predictable smart contracts. 
 
 
-  - Stacks 2.5 implements Proof of Transfer (PoX) mining that anchors to Bitcoin security. Leader election happens at the Bitcoin blockchain and Stacks (STX) miners write new blocks on the separate Stacks blockchain. 
+  - Stacks 3.0 implements Proof of Transfer (PoX) mining that anchors to Bitcoin security. Leader election happens at the Bitcoin blockchain and Stacks (STX) miners write new blocks on the separate Stacks blockchain. 
   With PoX there is no need to modify Bitcoin to enable smart contracts and apps around it. See this page for more details and resources.
 
 
@@ -20,13 +18,14 @@ description: >-
 
 
   - Connect your Web and Desktop wallet to your local API (http://umbrel.local:3999)
+  
 developer: Stacks
 website: https://stacks.co/
 submitter: Jasper
 dependencies:
   - bitcoin
 repo: https://github.com/stacks-network/stacks-blockchain
-support: https://discord.gg/XyZBbYh3kT
+support: https://github.com/muthusleuths/stacks-on-umbrel/issues
 port: 3998
 gallery:
   - https://i.ibb.co/98BS3jS/Stacks-On-Umbrel.png
@@ -36,9 +35,9 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 releaseNotes: >-
-  Update API to v8.0.0
+  Update API to v8.1.1
 
-  Update Node to v2.5.0.0.6
+  Update Node to v3.0.0.0.0
 
-  Update Explorer to v1.204.0
+  Update Explorer to v1.219.1
 torOnly: false
