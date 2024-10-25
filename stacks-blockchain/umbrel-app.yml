@@ -2,7 +2,7 @@ manifestVersion: 1
 id: stacks-blockchain
 category: Stacks
 name: Stacks Node
-version: "3.0.0.0.0"
+version: "3.0.0.0.0-1"
 icon: https://cryptologos.cc/logos/stacks-stx-logo.svg?v=029
 tagline: Stacks 3.0 is a bitcoin layer blockchain that connects to bitcoin for its security and enables decentralized apps and predictable smart contracts. 
 description: >-
@@ -28,9 +28,9 @@ repo: https://github.com/stacks-network/stacks-blockchain
 support: https://github.com/muthusleuths/stacks-on-umbrel/issues
 port: 3998
 gallery:
-  - https://i.ibb.co/98BS3jS/Stacks-On-Umbrel.png
-  - https://i.ibb.co/1s6PN8M/Stacks-Explorer-On-Umbrel.png
-  - https://i.ibb.co/GRzGX6M/Stacks-API-On-Umbrel.png
+  - https://utfs.io/f/ELyy1DuMsGjPQ0sfEROwIxSf6eosbKgFyNZEaQrqjzkmWOi0
+  - https://utfs.io/f/ELyy1DuMsGjPD90qszNS9GyXDa3FsZUTO8IuVxbRM715Wcer
+  - https://utfs.io/f/ELyy1DuMsGjPzdw52JUPI7dfNgV62Xz4x9K31aUucyJsAbnq
 path: ""
 defaultUsername: ""
 defaultPassword: ""
