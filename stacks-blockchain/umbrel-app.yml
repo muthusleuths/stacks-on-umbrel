@@ -2,8 +2,8 @@ manifestVersion: 1
 id: stacks-blockchain
 category: Stacks
 name: Stacks Node
-version: "3.0.0.0.0-1"
-icon: https://cryptologos.cc/logos/stacks-stx-logo.svg?v=029
+version: "3.0.0.0.0-2"
+icon: https://utfs.io/f/ELyy1DuMsGjPWEolKjXkHJNwDZ3nPA69bOLxvsaStCU0RXBp
 tagline: Stacks 3.0 is a bitcoin layer blockchain that connects to bitcoin for its security and enables decentralized apps and predictable smart contracts. 
 description: >-
   
