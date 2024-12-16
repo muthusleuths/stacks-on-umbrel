@@ -8,7 +8,7 @@ services:
 
 
   stacks-explorer:
-    image: hirosystems/explorer:1.219.1
+    image: hirosystems/explorer:1.236.1
     init: true
     restart: on-failure
     user: "1000:1000"
@@ -33,7 +33,7 @@ services:
 
 
   stacks-blockchain:
-    image: blockstack/stacks-blockchain:3.0.0.0.2
+    image: blockstack/stacks-blockchain:3.1.0.0.2
     init: true
     restart: on-failure
     stop_grace_period: 15m
@@ -59,7 +59,7 @@ services:
       - stacks-blockchain-api
 
   stacks-blockchain-api:
-    image: hirosystems/stacks-blockchain-api:v8.2.1
+    image: hirosystems/stacks-blockchain-api:v8.3.0
     init: true
     restart: on-failure
     #user: 0:0
