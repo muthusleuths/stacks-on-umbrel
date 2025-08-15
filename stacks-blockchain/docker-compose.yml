@@ -59,7 +59,7 @@ services:
       - stacks-blockchain-api
 
   stacks-blockchain-api:
-    image: hirosystems/stacks-blockchain-api:v8.12.0
+    image: hirosystems/stacks-blockchain-api:8.12.0
     init: true
     restart: on-failure
     #user: 0:0
